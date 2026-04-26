@@ -74,15 +74,5 @@ AI tools like ChatGPT were used to:
 
 ---
 
-## Improvements
-
-- Add form validation and error handling
-- Connect form to a real backend/database
-- Add animations and transitions
-- Improve accessibility
-- SEO optimization and performance tuning
-
----
-
 ## Author
 Pavitra Ganesan
