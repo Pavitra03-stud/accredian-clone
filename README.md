@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Accredian Enterprise Page Clone
 
-## Getting Started
+## Live Demo
+https://accredian-clone-woad.vercel.app/
 
-First, run the development server:
+## GitHub Repository
+https://github.com/Pavitra03-stud/accredian-clone
+
+---
+
+## Project Overview
+
+This project is a partial clone of the Accredian Enterprise website built using Next.js. It recreates key sections of the landing page with focus on responsiveness, clean UI, and reusable components.
+
+Reference:
+https://enterprise.accredian.com/
+
+---
+
+##  Tech Stack
+
+- Next.js (App Router)
+- React (Hooks)
+- Tailwind CSS
+- Vercel (Deployment)
+- Next.js API Routes
+
+---
+
+## Features
+
+- Fully responsive design (Mobile + Desktop)
+- Clean and structured UI
+- Reusable components
+- Enquiry modal with form
+- FAQ accordion
+- Testimonials section
+- Partnerships logos section
+- API route for form submission
+
+---
+
+## Setup Instructions
 
 ```bash
+git clone https://github.com/Pavitra03-stud/accredian-clone
+cd accredian-clone
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Approach
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Built modular components (Hero, Navbar, FAQ, Footer, etc.)
+- Used Tailwind CSS for fast and consistent styling
+- Focused on responsiveness instead of pixel-perfect cloning
+- Implemented reusable components for scalability
+- Integrated modal and API for user interaction
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## AI Usage
 
-To learn more about Next.js, take a look at the following resources:
+AI tools like ChatGPT were used to:
+- Assist with component structuring
+- Debug Next.js and Tailwind issues
+- Improve responsiveness and layout decisions
+- Speed up development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Manual Work & Improvements:
+- UI alignment and spacing adjustments
+- Responsive behavior tuning
+- Code cleanup and optimization
+- Fixing integration issues
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Improvements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Add form validation and error handling
+- Connect form to a real backend/database
+- Add animations and transitions
+- Improve accessibility
+- SEO optimization and performance tuning
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Author
+Pavitra Ganesan
