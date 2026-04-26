@@ -110,9 +110,9 @@ export default function Navbar() {
 
             {/* HEADER */}
             <div className="flex justify-between items-center mb-6">
-              <h2 className="font-semibold text-lg">Menu</h2>
+              <h2 className="font-semibold text-lg text-black">Menu</h2>
               <button onClick={() => setOpen(false)}>
-                <X size={24} />
+                <X size={24} className="text-black"/>
               </button>
             </div>
 
